@@ -17,6 +17,11 @@
 	<link media="all" rel="stylesheet" href="vendors/owl-carousel/owl.theme.css">
 	<!-- include main css -->
 	<link media="all" rel="stylesheet" href="css/theme-v1.css">
+	<style>
+			ul#menu li {
+			  display:inline;
+			}
+			</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
 		$(function() {
@@ -76,18 +81,9 @@
 								<li class="dropdown">
 									<a href="#about" class="dropdown-toggle">About <b class="icon-angle-down"></b></a>
 								</li>
-								<li><a href="tour-detail.html">Tour Detail</a></li>
-								<li class="dropdown has-mega-dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Activities <b class="icon-angle-down"></b></a>
-								</li>
-								<li class="dropdown has-mega-dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="icon-angle-down"></b></a>
-								</li>
+								<li><a href="#tours">Tour Detail</a></li>
 								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="icon-angle-down"></b></a>
-								</li>
-								<li class="dropdown has-mega-dropdown mega-md">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Elements <b class="icon-angle-down"></b></a>
+									<a href="#contact" class="dropdown-toggle" data-toggle="dropdown">Contact us <b class="icon-angle-down"></b></a>
 								</li>
 							</ul>
 						</div>
@@ -112,99 +108,33 @@
 				<section id="about" class="content-block bg-white">
 					<div class="container">
 						<header class="content-heading">
-							<h2 class="main-heading">THE ADVENTURE</h2>
-							<span class="main-subtitle">Mastering the art of perfect adventure for 10+ years in the wild.</span>
+							<h2 class="main-heading">ABOUT KARKALA</h2>
+							<span class="main-subtitle">The adventure.</span>
 							<div class="seperator"></div>
 						</header>
-						<div class="adventure-holder gallery-home-holder">
+						<div class=" gallery-home-holder">
 							<div class="row">
-								<div class="col-md-6 img-block">
-									<!-- gallery list -->
-									<ul class="gallery-list gallery-with-icon">
-										<li>
-											<a href="#" class="thumbnail">
-												<img src="img/gallery/img-01.jpg" height="165" width="170" alt="image description">
-												<span class="hover icon-bird"></span>
-												<span class="info">aerial</span>
-											</a>
-										</li>
-										<li>
-											<a href="#" class="thumbnail">
-												<img src="img/gallery/img-02.jpg" height="165" width="170" alt="image description">
-												<span class="hover icon-peak"></span>
-												<span class="info">land</span>
-											</a>
-										</li>
-										<li>
-											<a href="#" class="thumbnail">
-												<img src="img/gallery/img-03.jpg" height="165" width="170" alt="image description">
-												<span class="hover icon-water"></span>
-												<span class="info">water</span>
-											</a>
-										</li>
-										<li>
-											<a href="#" class="thumbnail">
-												<img src="img/gallery/img-04.jpg" height="165" width="170" alt="image description">
-												<span class="hover icon-asia"></span>
-												<span class="info">asia</span>
-											</a>
-										</li>
-										<li>
-											<a href="#" class="thumbnail">
-												<img src="img/gallery/img-05.jpg" height="165" width="170" alt="image description">
-												<span class="hover icon-arctic"></span>
-												<span class="info">arctic</span>
-											</a>
-										</li>
-										<li>
-											<a href="#" class="thumbnail">
-												<img src="img/gallery/img-06.jpg" height="165" width="170" alt="image description">
-												<span class="hover icon-africa"></span>
-												<span class="info">africa</span>
-											</a>
-										</li>
-										<li>
-											<a href="#" class="thumbnail">
-												<img src="img/gallery/img-07.jpg" height="165" width="170" alt="image description">
-												<span class="hover icon-plant"></span>
-												<span class="info">nature</span>
-											</a>
-										</li>
-										<li>
-											<a href="#" class="thumbnail">
-												<img src="img/gallery/img-08.jpg" height="165" width="170" alt="image description">
-												<span class="hover icon-wildlife"></span>
-												<span class="info">wildness</span>
-											</a>
-										</li>
-										<li>
-											<a href="#" class="thumbnail">
-												<img src="img/gallery/img-09.jpg" height="165" width="170" alt="image description">
-												<span class="hover icon-diamond"></span>
-												<span class="info">all</span>
-											</a>
-										</li>
-									</ul>
-								</div>
-								<div class="col-md-6 text-block">
+								<div class="col-md-12 text-block">
 									<div class="centered">
 										<h2 class="intro-heading">Living a Life of Adventure</h2>
 										<p class="intro">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. </p>
-										<a href="#" class="btn btn-info-sub btn-md btn-shadow radius">Dig More</a>
+										<a href="#" class="btn btn-info-sub btn-md btn-shadow radius">View History</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
-				<!-- special block -->
-				<aside class="special-block">
+				<!-- step block -->
+				<div class="step-block text-center parallax" data-stellar-background-ratio="0.3" id="about-step-block">
 					<div class="container">
-						<p class="special-text">Get special discount on select treks, this week. <strong>Call <a href="tel:157757525">+1 5775 7525</a></strong></p>
+						<blockquote class="normal">
+							<q>“The world is a book, and those who do not travel read only one page.”</q>
+						</blockquote>
 					</div>
-				</aside>
+				</div>
 				<!-- article list holder -->
-				<div class="content-block content-spacing">
+				<div id="tours" class="content-block content-spacing">
 					<div class="container">
 						<header class="content-heading">
 							<h2 class="main-heading">POPULAR TOURS</h2>
@@ -380,329 +310,10 @@
 					</div>
 				</div>
 				<!-- couter block -->
-				<aside class="count-block">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-xs-6 col-md-3 block-1">
-								<div class="holder">
-									<span class="icon icon-step"></span>
-									<span class="info"><span class="counter">8702</span></span>
-									<span class="txt">WILDLIFE SPECIES</span>
-								</div>
-							</div>
-							<div class="col-xs-6 col-md-3 block-2">
-								<div class="holder">
-									<span class="icon icon-fish-jumping"></span>
-									<span class="info"><span class="counter">378</span></span>
-									<span class="txt">ARCTIC EXPERIENCES</span>
-								</div>
-							</div>
-							<div class="col-xs-6 col-md-3 block-3">
-								<div class="holder">
-									<span class="icon icon-tree"></span>
-									<span class="info"><span class="counter">377</span></span>
-									<span class="txt">NATIONAL PARKS</span>
-								</div>
-							</div>
-							<div class="col-xs-6 col-md-3 block-4">
-								<div class="holder">
-									<span class="icon icon-duration"></span>
-									<span class="info"><span class="counter">8973</span></span>
-									<span class="txt">DAYS IN THE WILD</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</aside>
 				<!-- featured adventure content -->
-				<div class="featured-content adventure-holder">
-					<div class="container-fluid">
-						<div class="row same-height">
-							<div class="col-md-6 image height wow slideInLeft">
-								<div class="bg-stretch">
-									<img src="img/img-01.jpg" height="627" width="960" alt="image description">
-								</div>
-							</div>
-							<div class="col-md-6 text-block height wow slideInRight">
-								<div class="centered">
-									<h2 class="intro-heading">Botswana &amp; Angola - The Tribe</h2>
-									<p class="intro">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, Duis sed odio sit amet nibh vulputate cursus a it amet mauris.</p>
-									<a href="#" class="btn btn-primary btn-lg">explore</a>
-								</div>
-							</div>
-						</div>
-						<div class="row same-height">
-							<div class="col-md-6 image height wow slideInRight">
-								<div class="bg-stretch">
-									<img src="img/img-02.jpg" height="627" width="960" alt="image description">
-								</div>
-							</div>
-							<div class="col-md-6 text-block height wow slideInLeft">
-								<div class="centered">
-									<h2 class="intro-heading">Maritime Adventure - The Arctic</h2>
-									<p class="intro">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, Duis sed odio sit amet nibh vulputate cursus a it amet mauris.</p>
-									<a href="#" class="btn btn-primary btn-lg">explore</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
 				<!-- browse block -->
-				<div class="browse-block">
-					<div class="browse-destination column">
-						<a href="#"><span>BROWSE BY DESTINATION</span></a>
-					</div>
-					<div class="browse-adventures column">
-						<a href="#"><span>BROWSE BY ADVENTURES</span></a>
-					</div>
-				</div>
 				<!-- article list with boxed style -->
-				<section class="content-block article-boxed">
-					<div class="container">
-						<header class="content-heading">
-							<h2 class="main-heading">TOP ADVENTURES</h2>
-							<span class="main-subtitle">Our collection of the most popular adventures in 2016.</span>
-							<div class="seperator"></div>
-						</header>
-						<div class="content-holder content-boxed">
-							<div class="row db-3-col">
-								<article class="col-sm-6 col-md-4 article has-hover-s1">
-									<div class="thumbnail">
-										<div class="img-wrap">
-											<img src="img/listing/img-07.jpg" height="228" width="350" alt="image description">
-										</div>
-										<h3 class="small-space"><a href="tour-detail.html">Evening with Panda in China</a></h3>
-										<span class="info">Nordic Walk, Swiss Alps or French Hiking?</span>
-										<aside class="meta">
-											<span class="country">
-												<span class="icon-world"> </span>12 Countries
-											</span>
-											<span class="activity">
-												<span class="icon-acitivities"> </span>79 Activities
-											</span>
-										</aside>
-										<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-										<a href="tour-detail.html" class="btn btn-default">explore</a>
-										<footer>
-											<ul class="social-networks">
-												<li><a href="#"><span class="icon-twitter"></span></a></li>
-												<li><a href="#"><span class="icon-google-plus"></span></a></li>
-												<li><a href="#"><span class="icon-facebook"></span></a></li>
-												<li><a href="#"><span class="icon-linkedin"></span></a></li>
-											</ul>
-											<span class="price">from <span>$2749</span></span>
-										</footer>
-									</div>
-								</article>
-								<article class="col-sm-6 col-md-4 article has-hover-s1">
-									<div class="thumbnail">
-										<div class="img-wrap">
-											<img src="img/listing/img-08.jpg" height="228" width="350" alt="image description">
-										</div>
-										<h3 class="small-space"><a href="tour-detail.html">Sleeping with Sea Lion in Arctic</a></h3>
-										<span class="info">Nordic Walk, Swiss Alps or French Hiking?</span>
-										<aside class="meta">
-											<span class="country">
-												<span class="icon-world"> </span>12 Countries
-											</span>
-											<span class="activity">
-												<span class="icon-acitivities"> </span>79 Activities
-											</span>
-										</aside>
-										<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-										<a href="tour-detail.html" class="btn btn-default">explore</a>
-										<footer>
-											<ul class="social-networks">
-												<li><a href="#"><span class="icon-twitter"></span></a></li>
-												<li><a href="#"><span class="icon-google-plus"></span></a></li>
-												<li><a href="#"><span class="icon-facebook"></span></a></li>
-												<li><a href="#"><span class="icon-linkedin"></span></a></li>
-											</ul>
-											<span class="price">from <span>$2749</span></span>
-										</footer>
-									</div>
-								</article>
-								<article class="col-sm-6 col-md-4 article has-hover-s1">
-									<div class="thumbnail">
-										<div class="img-wrap">
-											<img src="img/listing/img-09.jpg" height="228" width="350" alt="image description">
-										</div>
-										<h3 class="small-space"><a href="tour-detail.html">Following Zebras to Water hole</a></h3>
-										<span class="info">Nordic Walk, Swiss Alps or French Hiking?</span>
-										<aside class="meta">
-											<span class="country">
-												<span class="icon-world"> </span>12 Countries
-											</span>
-											<span class="activity">
-												<span class="icon-acitivities"> </span>79 Activities
-											</span>
-										</aside>
-										<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-										<a href="tour-detail.html" class="btn btn-default">explore</a>
-										<footer>
-											<ul class="social-networks">
-												<li><a href="#"><span class="icon-twitter"></span></a></li>
-												<li><a href="#"><span class="icon-google-plus"></span></a></li>
-												<li><a href="#"><span class="icon-facebook"></span></a></li>
-												<li><a href="#"><span class="icon-linkedin"></span></a></li>
-											</ul>
-											<span class="price">from <span>$2749</span></span>
-										</footer>
-									</div>
-								</article>
-								<article class="col-sm-6 col-md-4 article has-hover-s1">
-									<div class="thumbnail">
-										<div class="img-wrap">
-											<img src="img/listing/img-10.jpg" height="228" width="350" alt="image description">
-										</div>
-										<h3 class="small-space"><a href="tour-detail.html">Discovering Wild Trails in Africa</a></h3>
-										<span class="info">Nordic Walk, Swiss Alps or French Hiking?</span>
-										<aside class="meta">
-											<span class="country">
-												<span class="icon-world"> </span>12 Countries
-											</span>
-											<span class="activity">
-												<span class="icon-acitivities"> </span>79 Activities
-											</span>
-										</aside>
-										<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-										<a href="tour-detail.html" class="btn btn-default">explore</a>
-										<footer>
-											<ul class="social-networks">
-												<li><a href="#"><span class="icon-twitter"></span></a></li>
-												<li><a href="#"><span class="icon-google-plus"></span></a></li>
-												<li><a href="#"><span class="icon-facebook"></span></a></li>
-												<li><a href="#"><span class="icon-linkedin"></span></a></li>
-											</ul>
-											<span class="price">from <span>$2749</span></span>
-										</footer>
-									</div>
-								</article>
-								<article class="col-sm-6 col-md-4 article has-hover-s1">
-									<div class="thumbnail">
-										<div class="img-wrap">
-											<img src="img/listing/img-11.jpg" height="228" width="350" alt="image description">
-										</div>
-										<h3 class="small-space"><a href="tour-detail.html">Angola Safari for Family &amp; Children</a></h3>
-										<span class="info">Nordic Walk, Swiss Alps or French Hiking?</span>
-										<aside class="meta">
-											<span class="country">
-												<span class="icon-world"> </span>12 Countries
-											</span>
-											<span class="activity">
-												<span class="icon-acitivities"> </span>79 Activities
-											</span>
-										</aside>
-										<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-										<a href="tour-detail.html" class="btn btn-default">explore</a>
-										<footer>
-											<ul class="social-networks">
-												<li><a href="#"><span class="icon-twitter"></span></a></li>
-												<li><a href="#"><span class="icon-google-plus"></span></a></li>
-												<li><a href="#"><span class="icon-facebook"></span></a></li>
-												<li><a href="#"><span class="icon-linkedin"></span></a></li>
-											</ul>
-											<span class="price">from <span>$2749</span></span>
-										</footer>
-									</div>
-								</article>
-								<article class="col-sm-6 col-md-4 article has-hover-s1">
-									<div class="thumbnail">
-										<div class="img-wrap">
-											<img src="img/listing/img-12.jpg" height="228" width="350" alt="image description">
-										</div>
-										<h3 class="small-space"><a href="tour-detail.html">Royal Safari in Bangaladesh</a></h3>
-										<span class="info">Nordic Walk, Swiss Alps or French Hiking?</span>
-										<aside class="meta">
-											<span class="country">
-												<span class="icon-world"> </span>12 Countries
-											</span>
-											<span class="activity">
-												<span class="icon-acitivities"> </span>79 Activities
-											</span>
-										</aside>
-										<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
-										<a href="tour-detail.html" class="btn btn-default">explore</a>
-										<footer>
-											<ul class="social-networks">
-												<li><a href="#"><span class="icon-twitter"></span></a></li>
-												<li><a href="#"><span class="icon-google-plus"></span></a></li>
-												<li><a href="#"><span class="icon-facebook"></span></a></li>
-												<li><a href="#"><span class="icon-linkedin"></span></a></li>
-											</ul>
-											<span class="price">from <span>$2749</span></span>
-										</footer>
-									</div>
-								</article>
-							</div>
-						</div>
-					</div>
-				</section>
 				<!-- content block with guide info -->
-				<section class="content-block guide-sub guide-add bg-white">
-					<div class="container">
-						<header class="content-heading">
-							<h2 class="main-heading">MEET THE GUIDES</h2>
-							<span class="main-subtitle">Our highly trained and efficient guides at your service</span>
-							<div class="seperator"></div>
-						</header>
-						<div class="content-holder">
-							<div class="row">
-								<div class="col-sm-6 col-md-4 img-article">
-									<div class="holder">
-										<div class="img-wrap">
-											<img src="img/listing/img-13.jpg" height="436" width="370" alt="image description">
-											<ul class="social-networks">
-												<li><a href="#"><span class="icon-facebook"></span></a></li>
-												<li><a href="#"><span class="icon-twitter"></span></a></li>
-												<li><a href="#"><span class="icon-google-plus"></span></a></li>
-												<li><a href="#"><span class="icon-linkedin"></span></a></li>
-											</ul>
-										</div>
-										<div class="caption">
-											<h3 class="small-space">Jason Statham</h3>
-											<span class="designation">TREKKING GUIDE</span>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-6 col-md-4 img-article">
-									<div class="holder">
-										<div class="img-wrap">
-											<img src="img/listing/img-14.jpg" height="436" width="370" alt="image description">
-											<ul class="social-networks">
-												<li><a href="#"><span class="icon-facebook"></span></a></li>
-												<li><a href="#"><span class="icon-twitter"></span></a></li>
-												<li><a href="#"><span class="icon-google-plus"></span></a></li>
-												<li><a href="#"><span class="icon-linkedin"></span></a></li>
-											</ul>
-										</div>
-										<div class="caption">
-											<h3 class="small-space">Cleona Tropez</h3>
-											<span class="designation">TREKKING GUIDE</span>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-6 col-md-4 img-article">
-									<div class="holder">
-										<div class="img-wrap">
-											<img src="img/listing/img-15.jpg" height="436" width="370" alt="image description">
-											<ul class="social-networks">
-												<li><a href="#"><span class="icon-facebook"></span></a></li>
-												<li><a href="#"><span class="icon-twitter"></span></a></li>
-												<li><a href="#"><span class="icon-google-plus"></span></a></li>
-												<li><a href="#"><span class="icon-linkedin"></span></a></li>
-											</ul>
-										</div>
-										<div class="caption">
-											<h3 class="small-space">Martin Blake</h3>
-											<span class="designation">TREKKING GUIDE</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
 				<!-- testimonial block -->
 				<div class="testimonial-holder parallax" data-stellar-background-ratio="0.25" id="testimonial-home-page">
 					<div class="container">
@@ -742,156 +353,38 @@
 							</div>
 						</div>
 					</div>
+					<div id="contact">
+					</div>
 				</div>
 				<!-- partner list -->
-				<article class="partner-block">
-					<div class="container">
-						<header class="content-heading">
-							<h2 class="main-heading">Partner</h2>
-							<span class="main-subtitle">People who always support and endorse our good work</span>
-							<div class="seperator"></div>
-						</header>
-						<div class="partner-list" id="partner-slide">
-							<div class="partner">
-								<a href="#">
-									<img width="130" src="img/logos/logo-travelagancy.svg" alt="image description">
-									<img class="hover" width="130" src="img/logos/logo-travelagancy-hover.svg" alt="image description">
-								</a>
+				<div class="row">
+					<div class="col-md-12 map-col-main wow fadeInRight">
+							<!-- google map  -->
+							<div class="map-holder">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31073.446955190957!2d74.98033434171509!3d13.213958484166916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbb564562e922d1%3A0x2488ca62b343f974!2sKarkala%2C+Karnataka!5e0!3m2!1sen!2sin!4v1551974356921" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 							</div>
-							<div class="partner">
-								<a href="#">
-									<img width="130" src="img/logos/logo-around-world.svg" alt="image description">
-									<img class="hover" width="130" src="img/logos/logo-around-world-hover.svg" alt="image description">
-								</a>
-							</div>
-							<div class="partner">
-								<a href="#">
-									<img width="130" src="img/logos/logo-tourist.svg" alt="image description">
-									<img class="hover" width="130" src="img/logos/logo-tourist-hover.svg" alt="image description">
-								</a>
-							</div>
-							<div class="partner">
-								<a href="#">
-									<img width="130" src="img/logos/logo-adventure.svg" alt="image description">
-									<img class="hover" width="130" src="img/logos/logo-adventure-hover.svg" alt="image description">
-								</a>
-							</div>
-							<div class="partner">
-								<a href="#">
-									<img width="130" src="img/logos/logo-around-world.svg" alt="image description">
-									<img class="hover" width="130" src="img/logos/logo-around-world-hover.svg" alt="image description">
-								</a>
-							</div>
-							<div class="partner">
-								<a href="#">
-									<img width="130" src="img/logos/logo-travelagancy.svg" alt="image description">
-									<img class="hover" width="130" src="img/logos/logo-travelagancy-hover.svg" alt="image description">
-								</a>
-							</div>
-							<div class="partner">
-								<a href="#">
-									<img width="130" src="img/logos/logo-adventure.svg" alt="image description">
-									<img class="hover" width="130" src="img/logos/logo-adventure-hover.svg" alt="image description">
-								</a>
-							</div>
-							<div class="partner">
-								<a href="#">
-									<img width="130" src="img/logos/logo-around-world.svg" alt="image description">
-									<img class="hover" width="130" src="img/logos/logo-around-world-hover.svg" alt="image description">
-								</a>
-							</div>
-							<div class="partner">
-								<a href="#">
-									<img width="130" src="img/logos/logo-travelagancy.svg" alt="image description">
-									<img class="hover" width="130" src="img/logos/logo-travelagancy-hover.svg" alt="image description">
-								</a>
-							</div>
-						</div>
 					</div>
-				</article>
+				</div>
 			</main>
 		</div>
 		<!-- main footer -->
 		<footer id="footer">
-			<div class="container">
+			<div class="container" style="padding-bottom: 0px">
 				<!-- newsletter form -->
-				<form action="php/subscribe.html" id="signup" method="post" class="newsletter-form">
-					<fieldset>
-						<div class="input-holder">
-							<input type="email" class="form-control" placeholder="Email Address" name="subscriber_email" id="subscriber_email">
-							<input type="submit" value="GO">
-						</div>
-						<span class="info" id="subscribe_message">To receive news, updates and tour packages via email.</span>
-					</fieldset>
-				</form>
 				<!-- footer links -->
 				<div class="row footer-holder">
-					<nav class="col-sm-4 col-lg-2 footer-nav active">
-						<h3>About Entrada</h3>
-						<ul class="slide">
-							<li><a href="#">The Company</a></li>
-							<li><a href="#">Our Values</a></li>
-							<li><a href="#">Responsiblity</a></li>
-							<li><a href="#">Our Mission</a></li>
-							<li><a href="#">Opportunity</a></li>
-							<li><a href="#">Safety Concerns</a></li>
-						</ul>
-					</nav>
-					<nav class="col-sm-4 col-lg-2 footer-nav">
-						<h3>Destinations</h3>
-						<ul class="slide">
-							<li><a href="#">Nepal</a></li>
-							<li><a href="#">Thailand</a></li>
-							<li><a href="#">Vietnam</a></li>
-							<li><a href="#">Fiji Island</a></li>
-							<li><a href="#">United States</a></li>
-							<li><a href="#">Australia</a></li>
-						</ul>
-					</nav>
-					<nav class="col-sm-4 col-lg-2 footer-nav">
-						<h3>themes</h3>
-						<ul class="slide">
-							<li><a href="#">Hiking and Camping</a></li>
-							<li><a href="#">Trekking Tours</a></li>
-							<li><a href="#">Jungle Safaris</a></li>
-							<li><a href="#">Bungee Jumping</a></li>
-							<li><a href="#">Wildlife &amp; Polar</a></li>
-							<li><a href="#">Peak Climbing</a></li>
-						</ul>
-					</nav>
-					<nav class="col-sm-4 col-lg-2 footer-nav">
-						<h3>reservation</h3>
-						<ul class="slide">
-							<li><a href="#">Booking Conditions</a></li>
-							<li><a href="#">My Bookings</a></li>
-							<li><a href="#">Refund Policy</a></li>
-							<li><a href="#">Includes &amp; Excludes</a></li>
-							<li><a href="#">Your Responsibilities</a></li>
-							<li><a href="#">Order a Brochure</a></li>
-						</ul>
-					</nav>
-					<nav class="col-sm-4 col-lg-2 footer-nav">
-						<h3>ask Entrada</h3>
-						<ul class="slide">
-							<li><a href="#">Why Entrada?</a></li>
-							<li><a href="#">Ask an Expert</a></li>
-							<li><a href="#">Safety Updates</a></li>
-							<li><a href="#">We Help When...</a></li>
-							<li><a href="#">Personal Matters</a></li>
-						</ul>
-					</nav>
-					<nav class="col-sm-4 col-lg-2 footer-nav last">
-						<h3>contact Entrada</h3>
+					<nav class="col-sm-6 col-lg-2 footer-nav last">
+						<h3>contact us</h3>
 						<ul class="slide address-block">
 							<li class="wrap-text"><span class="icon-tel"></span> <a href="tel:02072077878">(020) 72077878</a></li>
 							<li class="wrap-text"><span class="icon-fax"></span> <a href="tel:02088828282">(020) 88828282</a></li>
 							<li class="wrap-text"><span class="icon-email"></span> <a href="mailto:info@entrada.com">info@entrada.com</a></li>
-							<li><span class="icon-home"></span> <address>707 London Road Isleworth, Middx TW7 7QD</address></li>
+							<!-- <li><span class="icon-home"></span> <address>707 London Road Isleworth, Middx TW7 7QD</address></li> -->
 						</ul>
 					</nav>
 				</div>
 				<!-- social wrap -->
-				<ul class="social-wrap">
+				<!-- <ul class="social-wrap">
 					<li class="facebook"><a href="#">
 						<span class="icon-facebook"></span>
 						<strong class="txt">Like Us</strong>
@@ -916,33 +409,14 @@
 						<span class="icon-dribble"></span>
 						<strong class="txt">Dribbble</strong>
 					</a></li>
-				</ul>
+				</ul> -->
 			</div>
 			<div class="footer-bottom">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-6">
+						<div class="col-lg-12" style="text-align: center;">
 							<!-- copyright -->
 							<strong class="copyright"><i class="fa fa-copyright"></i> Copyright 2019 - Expadition - by AlphaSystems</strong>
-						</div>
-						<div class="col-lg-6">
-							<ul class="payment-option">
-								<li>
-									<img src="img/footer/visa.png" alt="visa">
-								</li>
-								<li>
-									<img src="img/footer/mastercard.png" height="20" width="33" alt="master card">
-								</li>
-								<li>
-									<img src="img/footer/paypal.png" height="20" width="72" alt="paypal">
-								</li>
-								<li>
-									<img src="img/footer/maestro.png" height="20" width="33" alt="maestro">
-								</li>
-								<li>
-									<img src="img/footer/bank-transfer.png" height="20" width="55" alt="bank transfer">
-								</li>
-							</ul>
 						</div>
 					</div>
 				</div>
