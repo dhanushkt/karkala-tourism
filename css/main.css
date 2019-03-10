@@ -135,7 +135,7 @@ body {
 }
 
 img {
-	max-width: 100%;
+	max-width: 125%;
 	height: auto;
 }
 
@@ -10246,7 +10246,7 @@ blockquote.normal {
 
 #header.fixed-position .logo {
 	padding-top: 22px;
-	padding-bottom: 22px;
+	padding-bottom: 15px;
 }
 
 .logo {
@@ -10258,11 +10258,11 @@ blockquote.normal {
 }
 
 .logo a {
-	width: 120px;
+	width: 150px;
 }
 
 .logo img {
-	width: 100%;
+	width: 200%;
 }
 
 .default-page #header.white-header.fixed-position .navbar-default .v-divider,
@@ -11493,7 +11493,7 @@ h4,
 }
 
 #header.fixed-position .logo a {
-	width: 98px;
+	width: 125px;
 }
 
 #header.fixed-position .navbar-default .navbar-nav > li > a:hover {
@@ -11592,7 +11592,7 @@ h4,
 
 .logo {
 	width: 240px;
-	padding: 38px 15px 38px 0;
+	padding: 30px 50px 30px 0px;
 }
 
 .header-v2 .navbar-default .nav-center {
