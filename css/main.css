@@ -9060,6 +9060,7 @@ h4,
 	transition: background .2s, color .2s;
 }
 
+
 .hi-icon-effect-1 .hi-icon:after {
 	top: -7px;
 	left: -7px;
@@ -12425,5 +12426,15 @@ to {
 	opacity: 1;
 }
 
+}
+
+.div1{
+	margin-left:10%;
+	margin-right:10%;
+}
+.paragraph{
+	font-weight:bold;
+	word-spacing:10px;
+	font-size:18px;
 }
 
