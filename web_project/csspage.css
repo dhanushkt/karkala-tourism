@@ -293,3 +293,12 @@ transform:scale(1.2);
 	border:2px solid grey;
 	
 }
+.font:hover{
+	font: bold 20;
+
+	text-shadow:5px 5px 5px white;
+}
+.alpha1{
+	font-weight:bold;
+	font-size:30px;
+}
