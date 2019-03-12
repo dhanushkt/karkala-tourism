@@ -1,11 +1,11 @@
-*.{
+*{
 	margin:0%;
 }
 html {
   scroll-behavior: smooth;
 }
 
-.ahead .{
+.ahead {
 	text-decoration:none;
 	color:white;
 	
@@ -29,9 +29,6 @@ a,button{
 	padding-top:2%;
 	text-align:center;
 	padding-bottom :2%;
-	
-	
-	
 	text-shadow:5px 5px 10px black;
 }
 .ahead :hover{

@@ -1,8 +1,10 @@
 <html>
 <head>
- <link href="csspage.css" type="text/css" rel="stylesheet">
+<title>DURGA</title>
+<link href="csspage.css" type="text/css" rel="stylesheet">
 </head>
-<body class="bgcolor">
+
+<body class="bgcolor"id="top">
 <div class="background">
   <div class ="heading">
  <h1 class="ahead zoom"><a href="new 1.html" class="nammakarkala">NAMMA KARKALA</a><h1>
@@ -65,37 +67,72 @@
   </div> 
  
 </div>
-<div class=body">
 <div class="border2"><br>
-<h1 class="welcome">"Welcome to NAMMA KARKALA"</h1>
+<h1 class="welcome">DURGA</h1>
 
 </div>
 <br>
+<div class="gum_nav">
+ <div class="navbar">
+ <a href="#overview" class="zoom">OverView of Durga</a>
+  <a href="#about" class="zoom">About Durga</a>
+  <a href="#" class="zoom">Gallery</a>
+  
+  </div>
+  </div>
+
+<div class="gum_body">
+<div class="img_div">
+<img src=".\photos\d3.jpg" height="70%" width="60%" class="img"></img>
+</div>
+
+<div class="pad">
+<div class="border1" >
 <br>
 <br>
-
-<div class="main_data">
-<p class="text"><span class="alpha1">K</span>arkala is a town and the headquarters of Karkala taluk in the Udupi district of Karnataka, India. Located about 60 km from Mangalore, it lies near the Western Ghats.
-
-The town was called Pandya Nagari (ಪಾಂಡ್ಯ ನಗರಿ) during the period of Jain rule, and later became known as Karikallu (ಕರಿಕಲ್ಲು), then Karkal (ಕಾರ್ಕಲ್) and then finally to Karkala (ಕಾರ್ಕಳ).
-
-
-Karkala has a number of natural and historical landmarks. It is located at the bottom of Western Ghats covered with greenery year-round. It is a major junction for religious tourists due to its strategic location along the way to Hebri, Sringeri, Kalasa, Horanadu, Udupi, Kollur and Dharmasthala
- 
+<h3 class="sub-heading" id="overview"><u>OverView of Durga : </u></h3><br>
+<p class="text">A beautiful greenery place 5kms away from karkala.There are many wonderful tourist places like sri laxmi amba bhavani temple,harihareshwar temple,durga falls....and so on.U can tavell here from karala.	
 </p>
 <br>
 <br>
-
+<h3 class="sub-heading" id="about"><u>About Durga :</u></h3><br>
+<p class="text">Durga is a Village in Karkal Taluk in Udupi District of Karnataka State, India. It belongs to Mysore Division . It is located 39 KM towards East from District head quarters Udupi. 8 KM from Karkal. 324 KM from State capital Bangalore 
+</p>
+<br>
+<p class="text">Durga Pin code is 576117 and postal head office is Kukkundur . </p><br>
+<p class="text">Miyaru ( 3 KM ) , Sheshadri Nagar ( 3 KM ) , Miyar ( 4 KM ) , Marthap Shetty Colony ( 5 KM ) , Karkal ( 5 KM ) are the nearby Villages to Durga. Durga is surrounded by Sringeri Taluk towards East , Udupi Taluk towards west , Beltangadi Taluk towards South , Mangalore Taluk towards South . 
+</p>
+<br>
+<br>
 </div>
 <div class="button">
-<button class="btn zoom" onclick="location.href='about.html';">KNOW MORE ABOUT KARKALA</button>
+<button onclick="topFunction()" id="myBtn" title="Go to top" class="gum_btn">Top</button>
+</div>
+<br>
+<br>
+</div>
 
 </div>
-<br>
-<br>
-<br>
 </div>
-</div>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 
 
 </body>
