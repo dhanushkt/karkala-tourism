@@ -302,7 +302,7 @@ transform:scale(1.2);
 }
 /* Dhanush code */
 .hero-image {
-  background-image: url(photos/b3.jpg);
+  background-image: url(photos/banner1.jpg);
   background-color: #cccccc;
   height: 400px;
   background-position: center;
@@ -315,6 +315,66 @@ transform:scale(1.2);
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+  transform: translate(-50%, -100%);
+  color: #2962ff;
+}
+.galary-image {
+  background-image: url(photos/img-13.jpg);
+  background-color: #cccccc;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	opacity: 0.3;
+}
+.galary-image:hover{
+  opacity: 0.5;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+	opacity: 0.6;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
