@@ -1,6 +1,3 @@
-*{
-	margin:0%;
-}
 html {
   scroll-behavior: smooth;
 }
@@ -25,7 +22,7 @@ a,button{
 .heading{
 	overflow : hidden;
 	color:white;
-	background-color:#51735A;
+	background-color:#2962ff;
 	padding-top:2%;
 	text-align:center;
 	padding-bottom :2%;
@@ -37,8 +34,8 @@ a,button{
 	
 }
 .nammakarkala:hover{
-	color:red;
-	text-shadow:5px 5px 10px blue;
+	color: #FFFFFF;
+	text-shadow:5px 5px 10px black;
 }
 .main_image{
 	margin:0px;
@@ -46,8 +43,8 @@ a,button{
 	height:28%;
 }
 .border{
- border-style:solid;
- border-color: gray;
+ /*border-style:solid;
+ border-color: gray;*/
 }
 .border1{
  border-style:solid;
@@ -66,8 +63,8 @@ a,button{
 .welcome{
 	border-style:solid;
 	border-color: gray;
-	margin-left:20%;
-	margin-right:20%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 .welcome:hover{
 	border-color: red;
@@ -75,9 +72,8 @@ a,button{
 }
 .border2{
 	text-align:center;
-	text-shadow:5px 5px 10px black;
-	color:white;
-}
+/*	text-shadow:5px 5px 10px black;*/
+	color: #768FFF}
 .border2:hover{
 	text-shadow:5px 5px 10px red;
 	color:blue;
@@ -95,8 +91,7 @@ a,button{
 	padding-left:20px;
 }
 .bgcolor{
-background-color:#CBD3CD;
-
+background-color: #DBDBDB;
 }
 .text{
 	text-align:top;
@@ -137,16 +132,24 @@ background-color:#CBD3CD;
 	text-shadow:5px 5px 10px black;
 }
 
-.background{
-	background-image:url("E:\karkala-tourism\photos\b3.jpg");
+.backgroundd{
+	/* background-image: url("photos\b3.jpg");
+	background-color: #cccccc;
+	  height: 500px;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  position: relative; */
 }
  body {
+	 margin:0%;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #768FFF;
+	padding-top: 0px;
 }
 
 .navbar a {
@@ -175,7 +178,7 @@ background-color:#CBD3CD;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #0039CB;
 }
   
 
@@ -203,7 +206,7 @@ color:blue;
 }
 
 .dropdown-content a:hover {
-  background-color: #ED8004;
+  background-color: #0039CB;
 }
 
 .dropdown:hover .dropdown-content {
@@ -236,9 +239,7 @@ color:blue;
 }
 .img{
 	margin-top:2%;
-	border-radius:10%;
-	
-	
+	border-radius:10%;	
 }
 .zoom
 {
@@ -298,4 +299,22 @@ transform:scale(1.2);
 .alpha1{
 	font-weight:bold;
 	font-size:30px;
+}
+/* Dhanush code */
+.hero-image {
+  background-image: url(photos/b3.jpg);
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
