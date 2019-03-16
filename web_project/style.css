@@ -241,6 +241,16 @@ color:blue;
 	margin-top:2%;
 	border-radius:10%;	
 }
+.i1{
+	
+	text-align:center;
+	
+}
+.i2{
+	text-align:center;
+	float:right;
+}
+
 .zoom
 {
 	/*padding-top:1%;*/
