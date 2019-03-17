@@ -241,14 +241,22 @@ color:blue;
 	margin-top:2%;
 	border-radius:10%;	
 }
-.i1{
+.img1{
 	
+	border-radius:10%;	
+}
+.imgL{
+	margin-left:2%;
+}
+.i1{	
 	text-align:center;
-	
 }
 .i2{
 	text-align:center;
 	float:right;
+}
+.i3{
+	text-align:center;
 }
 
 .zoom
