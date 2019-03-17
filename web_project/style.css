@@ -432,4 +432,15 @@ input[type=text], select, textarea {
   background-color: #f2f2f2;
   padding: 30px;
   margin:20px;
+	text-align: left;
+}
+.thankyou-image {
+  background-image: url(photos/img1.jpg);
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	opacity: 0.3;
 }
